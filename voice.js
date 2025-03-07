@@ -28,4 +28,4 @@ app.listen(() => console.log("Server started"));
 app.use('/ping', (req, res) => {
   res.send(new Date());
 });
-client.login("OTQ0OTc2MTcyMzgxNTI0MDA4.Gag1H0.idQH3EE-WoUVlDngj703Nj5wIwl5kDxwz_9sI8");
+client.login(process.env.token);
